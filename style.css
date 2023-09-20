@@ -1,0 +1,8 @@
+nav {
+    position: sticky;
+    text-align: right;
+    top: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: white;
+  }
