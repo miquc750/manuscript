@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
-p {
-    color: red;
-}
-
 nav {
     position: sticky;
     text-align: right;
