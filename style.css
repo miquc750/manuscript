@@ -28,6 +28,23 @@ footer {
     padding-bottom: 32px;
 }
 
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
 a:link {
     color: teal;
     text-decoration: none;
