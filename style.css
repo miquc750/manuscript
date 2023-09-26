@@ -3,7 +3,17 @@
 article {
     padding: 96px;
     background-color: #092834;
-    color:#B2D732
+    color:#F0F7D4 ;
+}
+
+#comment h3 {
+    color: #66B032;
+    margin-bottom: 16px;
+}
+
+#comment h4 {
+    color: #347B98;
+    margin-bottom: 56px;
 }
 
 header {
@@ -21,16 +31,55 @@ header {
     color: #B2D732;
 }
 
+#amateur {
+    color: #347B98;
+    text-align: left;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#amateur h3 {
+    text-align: left;
+    font-size: 140px;
+    bottom:0%;
+}
+
 .longcontent {
     padding: 96px;
     columns: 2;
     column-gap: 96px;
-    background-color: #B2D732;
+    background-color: #F0F7D4;
     color: #092834;
+}
+
+.longcontent h3 {
+    color: #347B98;
+}
+
+.left {
+    break-inside: avoid;
+    text-align: left;
+}
+
+.right {
+    break-inside: avoid;
+    text-align: right;
 }
 
 aside {
     break-inside: avoid;
+}
+
+.poem {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 06px;
+    padding-right: 96px;
+    columns: 2;
+    column-gap: 64pxpx;
+    background-color: #B2D732;
+    color: #092834;
 }
 
 aside p {
@@ -87,6 +136,58 @@ aside p {
     margin-bottom: 12px;
 }
 
+.envleft {
+    text-align:left ;
+    color: #347B98;
+    margin-bottom: 8px;
+}
+
+.envright {
+    text-align: right;
+    color: #347B98;
+    margin-bottom: 32px;
+}
+
+.dark {
+    background-color: #092834;
+    color: #F0F7D4;
+    padding: 96px;
+}
+
+.container {
+    background-color: #092834;
+    color: #347B98;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+}
+
+.darkcol {
+    columns: 2;
+    column-gap: 64px;
+    background-color: #092834;
+    color:#B2D732;
+    padding: 96px;
+}
+
+.darkcol section {
+    break-inside: avoid;
+}
+
+.blue {
+    background-color: #347B98;
+    color: #F0F7D4;
+    padding: 96px;
+    line-height: 5;
+    font-size: 24px;
+}
+
 footer {
     background-color: #092834;
     color: #347B98;
@@ -122,7 +223,7 @@ header h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 24px;
-    color:#B2D732;
+    color: #F0F7D4;
     margin-bottom: 8px;
 }
 
@@ -149,6 +250,7 @@ blockquote {
     font-family:'Montagu Slab', 'serif';
     font-size: 14px;
     font-style: italic;
+    line-height: 1.5;
     margin-left: 24px;
     margin-bottom: 16px;
 }
@@ -198,20 +300,4 @@ nav p {
     text-align: right;
 }
 
-hr {
-    border: none;
-    border-top: 3px double #333;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-  }
 
-    
-  hr:after {
-    background: #fff;
-    content: ' .·.·. ';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
-  }
