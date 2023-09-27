@@ -256,22 +256,22 @@ blockquote {
 }
 
 a:link {
-    color: teal;
+    color: #F0F7D4;
     text-decoration: none;
 }
 
 a:visited {
-    color: teal;
+    color: #F0F7D4;;
     text-decoration: none;
 }
 
 a:hover {
-    color: fuchsia;
+    color: #347B98;
     text-decoration: none;
 }
 
 a:active {
-    color: purple;
+    color: #347B98;
     text-decoration: none;
 }
 
@@ -286,9 +286,14 @@ a:active {
     background: #66B032;
   }
 
-nav span {
+nav button {
     margin-left: 8px;
     margin-right: 8px;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-kerning: 5%;
+    font-size: 16px;
 }
 
 .top {
@@ -298,6 +303,9 @@ nav span {
 
 nav p {
     text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 
