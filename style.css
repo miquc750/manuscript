@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz@16..144&family=Poppins:ital,wght@0,300;0,500;1,300;1,500&display=swap');
 
 article {
-    padding: 96px;
+    padding: 144px 204px 144px 204px;
     background-color: #092834;
     color:#F0F7D4 ;
 }
@@ -72,10 +72,7 @@ aside {
 }
 
 .poem {
-    padding-top: 96px;
-    padding-bottom: 96px;
-    padding-left: 06px;
-    padding-right: 96px;
+    padding: 96px;
     columns: 2;
     column-gap: 64pxpx;
     background-color: #B2D732;
@@ -85,11 +82,10 @@ aside {
 aside p {
     display: grid;
     box-sizing: border-box;
-    border-bottom: 1px solid #B2D732;
-    border-top: 1px solid #B2D732;
+    border-bottom: solid 1px #B2D732;
+    border-top: solid 1px #B2D732;
     margin-bottom: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px; 
+    padding: 16px 0px 16px 0px;
 }
 
 .yousect {
@@ -191,10 +187,7 @@ aside p {
 footer {
     background-color: #092834;
     color: #347B98;
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 64px 204px 32px 204px;
 }
 
 em {
@@ -251,8 +244,7 @@ blockquote {
     font-size: 14px;
     font-style: italic;
     line-height: 1.5;
-    margin-left: 24px;
-    margin-bottom: 16px;
+    margin: 0px 0px 16px 24px;
 }
 
 a:link {
@@ -279,10 +271,7 @@ a:active {
     position: sticky;
     text-align: right;
     top: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 64px;
-    padding-right:64px;
+    padding: 12px 64px 12px 64px;
     background: #66B032;
   }
 
@@ -292,16 +281,16 @@ nav button {
     text-align: right;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-kerning: 5%;
     font-size: 16px;
 }
 
 .top {
     background-color: #092834;
-    padding-right: 96px;
+    padding: 0px 64px 0px 64px;
+    text-align: right;
 }
 
-nav p {
+.top button {
     text-align: right;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
