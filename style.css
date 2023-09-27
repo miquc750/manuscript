@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz@16..144&family=Poppins:ital,wght@0,300;0,500;1,300;1,500&display=swap');
 
+body {
+    background-color: #092834;
+}
+
 article {
-    padding: 144px 204px 144px 204px;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 96px;
+    margin-bottom: 96px;
     background-color: #092834;
     color:#F0F7D4 ;
 }
@@ -35,8 +43,7 @@ header {
     color: #347B98;
     text-align: left;
     height: 100%;
-    display: flex;
-    align-items: flex-end;
+    display: block;
 }
 
 #amateur h3 {
@@ -187,7 +194,8 @@ aside p {
 footer {
     background-color: #092834;
     color: #347B98;
-    padding: 64px 204px 32px 204px;
+    text-align: center;
+    padding: 96px 64px 32px 64px;
 }
 
 em {
@@ -204,6 +212,7 @@ h1 {
     font-size: 72px;
     color:#092834;
     margin-bottom: 24px;
+    max-width: 10ch;
 }
 
 h2 {
@@ -236,6 +245,7 @@ p {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 14px;
+    line-height: 1.5;
     margin-bottom: 12px;
 }
 
@@ -273,7 +283,7 @@ a:active {
     top: 0;
     padding: 12px 64px 12px 64px;
     background: #66B032;
-  }
+}
 
 nav button {
     margin-left: 8px;
